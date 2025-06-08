@@ -4,8 +4,6 @@ import { Bars3Icon, XMarkIcon, ArrowDownIcon, EnvelopeIcon, PhoneIcon, MapPinIco
 import { BrowserRouter, Routes, Route, Link, useParams, useNavigate, useLocation } from 'react-router-dom'
 import { FaLinkedin } from 'react-icons/fa'
 
-// Define project data outside of the component for better organization
-// In a larger app, this would likely be in a separate data file or fetched from an API
 const projectsData = [
   {
     id: 'holidaze',
@@ -111,8 +109,8 @@ function ProjectArticle({ projectsData }) {
   );
 }
 
-// NEW COMPONENT: HomePageContent
-// This component will render the main sections of your portfolio
+
+// This component will render the main sections of portfolio
 function HomePageContent({ isMobile, handleScroll, animationVariants, activeSection, projectsData }) {
   const location = useLocation();
 
@@ -141,7 +139,6 @@ function HomePageContent({ isMobile, handleScroll, animationVariants, activeSect
 
   return (
     <>
-      {/* Enhanced Hero Section */}
       <section id="home" className="section pt-32 min-h-screen flex items-center relative overflow-hidden">
         <div className="absolute inset-0 -z-10">
           <div className="absolute inset-0 bg-gradient-to-r from-primary/20 to-blue-600/20 blur-3xl"></div>
@@ -317,7 +314,6 @@ function HomePageContent({ isMobile, handleScroll, animationVariants, activeSect
         </motion.div>
       </section>
 
-      {/* Optimized Projects Section */}
       <section id="projects" className="section transition-all duration-200 bg-gray-50">
         <motion.div 
           className="container"
