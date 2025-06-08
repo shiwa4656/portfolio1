@@ -10,7 +10,7 @@ const projectsData = [
     name: 'Holidaze - Booking Venue',
     shortDescription: 'A React and Tailwind based application for booking venues, featuring venue listing, search, booking/canceling, and venue manager functionality.',
     longDescription: 'Holidaze is a comprehensive React application developed for booking accommodation venues. It offers a seamless user experience for browsing available venues, searching by various criteria, and managing bookings. Key features include user authentication, venue listing with filtering and search capabilities, the ability to book and cancel venues, and a dedicated manager interface for venue owners to add, update, and delete their listings. Built with modern React practices and styled using Tailwind CSS, it focuses on responsiveness and an intuitive design.',
-    image: '/HolidazePic.png',
+    image: '/HolidazePic.jpg',
     liveLink: 'https://xnb.netlify.app/',
     sourceCodeLink: 'https://github.com/shiwa4656/projectExam2'
   },
@@ -19,7 +19,7 @@ const projectsData = [
     name: 'Auction Site',
     shortDescription: 'A dynamic and interactive auction site application built with Tailwind CSS and JavaScript, allowing users to post, bid on, and manage items, including deleting their own bids.',
     longDescription: 'This auction site is a robust web application where users can create listings, place bids on items, and manage their own posted items and bids. Developed with vanilla JavaScript for core functionality and styled beautifully with Tailwind CSS for a modern, responsive design. It includes features such as user authentication, item creation with image uploads, real-time bidding mechanics, and the ability for users to delete their own bids or listings. The application emphasizes interactivity and a smooth user experience.',
-    image: '/Auction.png',
+    image: '/Auction.jpg',
     liveLink: 'https://auction-site16.netlify.app/',
     sourceCodeLink: 'https://github.com/shiwa4656/semesterProject2'
   },
@@ -28,7 +28,7 @@ const projectsData = [
     name: 'ShopWave - E-Commerce Store',
     shortDescription: 'A React-based e-commerce store application with product listing, search functionality, cart management, and checkout process.',
     longDescription: 'ShopWave is a functional e-commerce store built using React, designed to provide a complete shopping experience. It features a comprehensive product listing page, robust search and filtering capabilities to help users find items quickly, an intuitive shopping cart system, and a streamlined checkout process. The application focuses on maintainability and a clean user interface, making it easy to browse, select, and purchase products.',
-    image: '/Ecommerce.png',
+    image: '/Ecommerce.jpg',
     liveLink: 'https://online-shop46.netlify.app/',
     sourceCodeLink: 'https://github.com/shiwa4656/reactCourseAssignment'
   }
