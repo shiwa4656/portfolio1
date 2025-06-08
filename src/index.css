@@ -1,0 +1,46 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  html {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    @apply bg-gray-50 text-gray-900 dark:bg-gray-900 dark:text-gray-100;
+  }
+
+  /* Ensure form labels and placeholders are white in dark mode */
+  .dark label {
+    color: white !important;
+  }
+
+  .dark input::placeholder,
+  .dark textarea::placeholder {
+    color: rgba(255, 255, 255, 0.8) !important; /* Use rgba for a slightly softer white placeholder */
+  }
+
+  .dark input,
+  .dark textarea {
+    border-color: #4B5563 !important; /* Ensure a visible border in dark mode (gray-600) */
+  }
+}
+
+@layer components {
+  .container {
+    @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+  }
+  
+  .btn {
+    @apply px-4 py-2 rounded-lg font-medium transition-all duration-200;
+  }
+  
+  .btn-primary {
+    @apply bg-primary text-white hover:bg-primary/90;
+  }
+  
+  .section {
+    @apply py-16 md:py-24;
+  }
+}
